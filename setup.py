@@ -17,7 +17,6 @@
 from setuptools import find_packages, setup
 from urllib import request, parse
 
-
 # get package version
 with open("VERSION") as version_file:
     version = version_file.read().strip()
